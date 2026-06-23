@@ -5,13 +5,13 @@ namespace MediPlanning.Models
 {
     public class User
     {
-        private string nom;
+        private string nom; //Attributs//
         private string prenom;
         private string numRegistreNational;
         private string telephone;
         private string email;
 
-        public string Nom
+        public string Nom //Propriétés//
         {
             get { return nom; }
             set { nom = value; }
@@ -41,7 +41,7 @@ namespace MediPlanning.Models
             set { email = value; }
         }
 
-        public User(
+        public User( //Constructeur//
             string nom,
             string prenom,
             string numRegistreNational,
@@ -55,7 +55,7 @@ namespace MediPlanning.Models
             this.email = email;
         }
 
-        public void SeConnecter()
+        public void SeConnecter() //Méthodes//
         {
             Console.WriteLine($"{prenom} {nom} est connecté.");
         }

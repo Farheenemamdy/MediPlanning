@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\noore\\Documents\\POO\\MediPlanning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5C42F5B-94D5-DFE1-190A-039F6A85982E}|MediPlanning.csproj|c:\\users\\noore\\documents\\poo\\mediplanning\\models\\planning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C42F5B-94D5-DFE1-190A-039F6A85982E}|MediPlanning.csproj|solutionrelative:models\\planning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5C42F5B-94D5-DFE1-190A-039F6A85982E}|MediPlanning.csproj|c:\\users\\noore\\documents\\poo\\mediplanning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C42F5B-94D5-DFE1-190A-039F6A85982E}|MediPlanning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\noore\\Documents\\POO\\MediPlanning\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\noore\\Documents\\POO\\MediPlanning\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAQwFQBAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T08:49:01.741Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Planning.cs",
+              "DocumentMoniker": "C:\\Users\\noore\\Documents\\POO\\MediPlanning\\Models\\Planning.cs",
+              "RelativeDocumentMoniker": "Models\\Planning.cs",
+              "ToolTip": "C:\\Users\\noore\\Documents\\POO\\MediPlanning\\Models\\Planning.cs",
+              "RelativeToolTip": "Models\\Planning.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T18:23:46.171Z",
               "EditorCaption": ""
             }
           ]

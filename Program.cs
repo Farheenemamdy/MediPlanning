@@ -5,12 +5,15 @@ using System.Globalization;
 using MediPlanning.Models;
 using MediPlanning.Factories;
 
+// Configuration générale de l'application console.//
+
 Console.OutputEncoding = Encoding.UTF8;
 
 CreneauFactory factory = new CreneauFactory();
 bool continuer = true;
 
 
+// Méthodes de saisie sécurisée avec retour possible au menu.//
 static bool SaisirTexte(string message, out string valeur)
 {
     Console.Write(message);
@@ -77,6 +80,7 @@ static bool SaisirHeure(string message, out int heure)
     }
 }
 
+// Menu principal de l'application.//
 while (continuer)
 {
     AnsiConsole.Clear();
@@ -113,7 +117,7 @@ while (continuer)
 
     switch (choix)
     {
-        case "1":
+        case "1": // Consultation du planning principal.//
             AnsiConsole.Clear();
 
             string nomMedecin =
@@ -163,7 +167,7 @@ while (continuer)
 
             break;
 
-        case "2":
+        case "2": // Ajout d'une consultation via la factory.//
             AnsiConsole.Clear();
 
             AnsiConsole.Write(
@@ -224,7 +228,7 @@ while (continuer)
 
             break;
 
-        case "3":
+        case "3": // Ajout d'une garde via la factory.//
             AnsiConsole.Clear();
 
             AnsiConsole.Write(
@@ -279,7 +283,7 @@ while (continuer)
 
             break;
 
-        case "4":
+        case "4": // Ajout d'une indisponibilité via la factory.//
             AnsiConsole.Clear();
 
             AnsiConsole.Write(
@@ -334,7 +338,7 @@ while (continuer)
 
             break;
 
-        case "5":
+        case "5": // Vérification des conflits de créneaux.//
             AnsiConsole.Clear();
 
             AnsiConsole.Write(
@@ -389,7 +393,7 @@ while (continuer)
 
             break;
 
-        case "6":
+        case "6": // Fermeture de l'application.//
             continuer = false;
             AnsiConsole.Clear();
             AnsiConsole.MarkupLine("[bold]Fermeture de MediPlanning...[/]");

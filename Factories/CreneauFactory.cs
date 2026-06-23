@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using MediPlanning.Models;
 
+// Factory Method : centralise la création des différents types de créneaux.//
+
 namespace MediPlanning.Factories
 {
     public class CreneauFactory
@@ -15,6 +17,8 @@ namespace MediPlanning.Factories
             string information,
             string patientReferent = "")
         {
+            
+// Détermine l'objet concret créé : Consultation, Garde ou Indisponibilite.//
             switch (type.ToLower())
             {
                 case "consultation":

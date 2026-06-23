@@ -3,17 +3,17 @@ namespace MediPlanning.Models
 {
     public class Indisponibilite : Creneau
     {
-        // Attribut spécifique
+        // Attribut spécifique//
         private string raison;
 
-        // Propriété
+        // Propriété//
         public string Raison
         {
             get { return raison; }
             set { raison = value; }
         }
 
-        // Constructeur
+        // Constructeur//
         public Indisponibilite(
             DateTime date,
             int heureDebutI,
@@ -24,7 +24,7 @@ namespace MediPlanning.Models
             this.raison = raison;
         }
 
-        // Méthode héritée de Creneau
+        // Méthode héritée de Creneau//
         public override void AfficherDetails()
         {
             Console.WriteLine(

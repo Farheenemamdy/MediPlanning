@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediPlanning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bec09cd8aa3e6890ed32a8d27936bf85d77293d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediPlanning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediPlanning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

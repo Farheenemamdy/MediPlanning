@@ -36,6 +36,8 @@ namespace MediPlanning.Models
             this.heureFin = heureFin;
         }
 
+        // Template Method : définit le déroulement commun du traitement d'un créneau.
+
         // Template Method
         public void TraiterCreneau()
         {
